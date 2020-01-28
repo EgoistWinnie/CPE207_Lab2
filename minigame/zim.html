@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+    <title>Lucky Lotto</title>
+</head>
+<body>
+    <h1 align="center">Lucky Lotto</h1>
+    <p id="howto" align="center">You have been invited to the Reve festival! <br> but before you are able to receive this prize, <br>
+        you will have to guess which keys from hundred of keys <br> are the right key for the kingdom
+    </p>
+    <form align="center">
+        <div><input type="text" id="num"></div> <br>
+        <div><button type="button" id="sub" onclick="gotMyNumber(event)">Submit number</button></div>
+        
+    </form>
+
+    <p id="previousAnswer">Previous :</p>
+    <p id="result"></p>
+
+    <div align="center">
+        <button type="button" id="restart" onclick="restart()">Restart game</button>
+    </div>
+    
+    
+<script src="./js/script.js"></script>
+</body>
+</html>

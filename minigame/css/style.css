@@ -1,0 +1,64 @@
+p{
+    display: flex;
+    justify-content: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+    color: rgb(66, 253, 138);
+    margin-top: 0px;
+    text-shadow: 2px 2px crimson;
+}
+
+body
+{
+    background-image: url("https://thumbs.gfycat.com/NimbleActiveGoldfinch-size_restricted.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1
+{
+    font-family: 'Bree Serif', serif;
+    font-size: 7rem;
+    color: rgb(255, 163, 24);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 0.2em azure;
+}
+
+input{
+    transition: 0.5s ease-in-out;
+    background-color: lightpink;
+    border: none;
+    width: 10%;
+    padding: 12px 20px;
+    outline: none;
+}
+
+input:focus {
+    width: 20%;
+    border: 3px solid aliceblue;
+  }
+
+#sub{
+    background-color: #06c793;
+    border: none;
+    color: aliceblue;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 2px solid aliceblue;
+}
+
+#restart{
+    background-color: #e95045;
+    border: none;
+    color: aliceblue;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 2px solid aliceblue;
+}
